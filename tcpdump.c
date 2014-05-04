@@ -927,7 +927,7 @@ main(int argc, char **argv)
 			break;
 
 		case 'C':
-			Cflag = atoi(optarg) * 1000000;
+			Cflag = atoi(optarg) * 1000;
 			if (Cflag < 0)
 				error("invalid file size %s", optarg);
 			break;
